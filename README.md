@@ -33,6 +33,8 @@ You should see a centered dark profile card.
 
 ## 2. Create a Branch (1 minute)
 
+Your task is to modify the `ProfileCard` component using product context and rules. Before making any changes, create a new feature branch for styling the `ProfileCard`.
+
 This repository includes a persistent git rule file located at:
 
 ```
@@ -52,12 +54,12 @@ All feature branches must follow this format:
 
 In Cursor chat, ask something like:
 
-> Create a new branch for refining the README. Follow the naming convention defined in `.cursor/git.mdc`.
+> Create a new branch for styling the ProfileCard component. Follow the naming convention defined in `.cursor/git.mdc`.
 
 Cursor should generate and execute a command similar to:
 
 ```bash
-git checkout -b <NAME/FEATURE-NAME>
+git checkout -b <your-name/profile-card-styling>
 ```
 
 ### Verify
