@@ -1,0 +1,21 @@
+---
+alwaysApply: true
+---
+
+# Git Rules
+
+## Branch Naming Convention
+
+All feature branches must follow this format:
+
+name/<short-kebab-case-description>
+
+Example:
+laurence/profile-card-context
+
+## Requirements
+
+- Always create a new branch before making feature changes
+- Never modify code directly on `main`
+- Follow the naming convention exactly
+- After creating a branch, confirm the branch name using `git branch`
