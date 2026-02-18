@@ -1,0 +1,41 @@
+---
+description: ProfileCard component conventions and styling rules
+globs: **/ProfileCard.tsx
+alwaysApply: false
+---
+
+# ProfileCard Component Rules
+
+## Product Overview
+[TBD — Describe the overall feel and purpose of the ProfileCard.]
+
+## Props
+- `name` (string) – User's display name
+- `title` (string) – Role or subtitle (e.g., "Designer & Engineer")
+- `bio` (string) – Short description
+- `avatarUrl` (optional string) – Image URL; fallback to blank circle when absent
+
+## Typography
+Use intentional, hierarchy-driven typography:
+- **Name**: `text-2xl` or `text-3xl`, `font-bold` or `font-semibold`, `tracking-tight`, `text-white`
+- **Title**: `text-sm`, `font-medium` or `font-normal`, `text-zinc-400`
+- **Bio**: `text-sm`, `leading-relaxed`, `text-zinc-300`
+
+Avoid `font-black` and `font-light` extremes unless explicitly required for the design system.
+
+## Layout & Spacing
+- Card: `max-w-md`, `rounded-2xl`, `p-6`
+- Avatar: `h-14 w-14`, `rounded-full`
+- Gap between avatar and content: `gap-4`
+- Bio margin-top: `mt-5`
+- Buttons: `mt-6`, `gap-2`
+
+## Buttons
+- Primary (Follow): filled, high contrast
+- Secondary (Message): bordered, lower emphasis
+- Both: `rounded-lg`, `px-3 py-2`, `text-sm`
+
+## Theme
+- Background: `bg-zinc-950`
+- Card: `bg-zinc-900/40`, `border-zinc-800`
+- Keep the dark, neutral palette (zinc) consistent
