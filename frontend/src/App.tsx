@@ -5,7 +5,7 @@ export default function App() {
     <ProfileCard
       name="Your Name"
       title="Your Title"
-      bio="This profile card appears across the product anywhere a user identity is shown. In this workshop, you'll guide Cursor using a product overview and rules to make typography consistent and intentional."
+      bio="This is a default profile card component, intended to display a user identity. In this workshop, you'll guide Cursor using a product overview and rules to style the card through changes to colors and typography."
     />
   );
 }
