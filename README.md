@@ -50,12 +50,14 @@ You should see a centered dark profile card.
 ## 2. Create a Branch (1 minute)
 
 Before making any changes, create a new feature branch for styling the `ProfileCard`. This repository includes a persistent git rule file: `git.mdc` (see file location below). Cursor must follow the branch naming convention defined there.
+
 ![Git rules file location](images/git-rules-file-location.png)
 
 
 ### a. Branch Naming Convention
 
 All feature branches must follow the format defined by `git.mdc`:
+
 ![Cursor Git Rules](images/cursor-git-rules.png)
 
 ### b. Use Cursor to Create the Branch
@@ -79,6 +81,7 @@ git branch
 ```
 
 You should see your new branch highlighted:
+
 ![New branch confirmation](images/new-branch-confirmation.png)
 
 ### ✅ Checkpoint:
@@ -94,6 +97,7 @@ Your goal is to refine the existing rule file and use it to modify the `ProfileC
 ### a. Refine the Product Context
 
 Open `profile-card.mdc` found in the `.cursor` folder in the root directory. This file already defines conventions and constraints for the `ProfileCard` component.
+
 ![Profile card rules file location](images/profile-card-rules-file-location.png)
 
 Your Tasks:
