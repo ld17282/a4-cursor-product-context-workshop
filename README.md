@@ -50,13 +50,13 @@ You should see a centered dark profile card.
 ## 2. Create a Branch (1 minute)
 
 Before making any changes, create a new feature branch for styling the `ProfileCard`. This repository includes a persistent git rule file: `git.mdc` (see file location below). Cursor must follow the branch naming convention defined there.
-    ![Git rules file location](images/git-rules-file-location.png)
+![Git rules file location](images/git-rules-file-location.png)
 
 
 ### a. Branch Naming Convention
 
 All feature branches must follow the format defined by `git.mdc`:
-    ![Cursor Git Rules](images/cursor-git-rules.png)
+![Cursor Git Rules](images/cursor-git-rules.png)
 
 ### b. Use Cursor to Create the Branch
 
@@ -79,7 +79,7 @@ git branch
 ```
 
 You should see your new branch highlighted:
-    ![New branch confirmation](images/new-branch-confirmation.png)
+![New branch confirmation](images/new-branch-confirmation.png)
 
 ### ✅ Checkpoint:
 - [ ] You are no longer on `main`
@@ -94,7 +94,7 @@ Your goal is to refine the existing rule file and use it to modify the `ProfileC
 ### a. Refine the Product Context
 
 Open `profile-card.mdc` found in the `.cursor` folder in the root directory. This file already defines conventions and constraints for the `ProfileCard` component.
-    ![Profile card rules file location](images/profile-card-rules-file-location.png)
+![Profile card rules file location](images/profile-card-rules-file-location.png)
 
 Your Tasks:
 
@@ -110,7 +110,7 @@ Examples of acceptable tweaks:
 - Switch **Name** weight (`font-bold` → `font-semibold`)
 - Tweak **Card** border (`border-zinc-800` → `border-lime-900` )
 
-For more **color** options, see the [Tailwind CSS colors documentation](https://tailwindcss.com/docs/colors#working-with-colors).
+For more **color** options, see the [Tailwind CSS Colors documentation](https://tailwindcss.com/docs/colors#working-with-colors).
 
 For more **font weight/size** options, see the [Tailwind CSS Typography documentation](https://v3.tailwindcss.com/docs/font-size).
 
@@ -178,7 +178,7 @@ In Cursor chat, ask:
 - [ ] Drag and drop the file from your computer downloads into the repo's assets folder `frontend/src/assets/`
     ![Relocate avatar to assets](images/relocate-avatar-to-assets.png)
 - [ ] In Cursor chat, ask:
-> Import the image `profile-avatar.png` from `src/assets` into App.tsx and pass it as the `avatarUrl` prop to ProfileCard.
+> Import the image @profile-avatar.png from `src/assets` into @App.tsx and pass it as the `avatarUrl` prop to ProfileCard.
 
 Your browser should automatically refresh and display your avatar.
 
