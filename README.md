@@ -45,13 +45,13 @@ You should see a centered dark profile card.
 
 ### ✅ Checkpoint: 
 - [ ] The app runs, and you can see the `ProfileCard` component.
-- [ ] Use `Cmd` + `c` to kill your terminal before moving on.
+- [ ] Leave this terminal running so you can see changes on the frontend in real time.
+
+![Terminal dev server](images/terminal-dev-server.png)
 
 ## 2. Create a Branch (1 minute)
 
-Your task is to modify the `ProfileCard` component using product context and rules. Before making any changes, create a new feature branch for styling the `ProfileCard`.
-
-This repository includes a persistent git rule file: `git.mdc` (see file location below). Cursor must follow the branch naming convention defined there.
+Before making any changes, create a new feature branch for styling the `ProfileCard`. This repository includes a persistent git rule file: `git.mdc` (see file location below). Cursor must follow the branch naming convention defined there.
 
 ![Git rules file location](images/git-rules-file-location.png)
 
@@ -76,7 +76,7 @@ git checkout -b <your-name/profile-card-styling>
 
 ### c. Verify
 
-In your Cursor terminal, run:
+In your new Cursor terminal (not the dev server) run:
 
 ```bash
 git branch
@@ -132,13 +132,21 @@ In Cursor chat, ask:
 
 > Read @profile-card.mdc and update @ProfileCard.tsx to follow the updated Product Overview and rules. Only modify what is allowed by the rule file.
 
-Observe the changes in your browser. The layout should remain identical. Only colors or typography should change.
+To observe the changes in your browser, in your Cursor terminal, run:
+```bash
+cd frontend
+npm i
+npm run dev
+```
+
+ Click on the localhost link again. The layout should remain identical. Only colors or typography should have changed.
 
 ### c. Verify with Git Diff
 
 In your Cursor terminal, run:
 
 ```bash
+cd ..
 git diff
 ```
 
