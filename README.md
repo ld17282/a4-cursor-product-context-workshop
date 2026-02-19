@@ -23,7 +23,7 @@ git clone https://github.com/ld17282/a4-cursor-product-context-workshop.git
 In your Cursor terminal, run:
 
 ```bash
-cd a4-cursor-product-context-workshop/frontend
+cd frontend
 ```
 
 ### b. Install dependencies and start the dev server
@@ -66,7 +66,7 @@ All feature branches must follow the format defined by `git.mdc`:
 
 In Cursor chat, ask:
 
-> Create a new branch for styling the ProfileCard component. Follow the naming convention defined by @git.mdc
+> Create a new branch for styling the ProfileCard component. My name is [ENTER YOUR NAME]. Follow the naming convention defined by @git.mdc. 
 
 Cursor should generate and execute a command similar to:
 
@@ -173,7 +173,7 @@ In Cursor chat, ask:
 ### b. Ask Cursor to update the `title` displayed on the `ProfileCard`
 In Cursor chat, ask:
 
-> In App.tsx edit the title property's value to the string "YREPLACE WITH OUR TITLE"
+> In App.tsx edit the title property's value to the string "REPLACE WITH YOUR TITLE"
 
 ### c. Ask Cursor to update the `bio` displayed on the `ProfileCard`
 In Cursor chat, ask:
