@@ -88,7 +88,7 @@ You should see your new branch highlighted:
 
 ### ✅ Checkpoint:
 - [ ] You are no longer on `main`
-- [ ] `your branch` follows the required naming format. 
+- [ ] `your-branch` follows the required naming format. 
 This demonstrates that Cursor is reading and applying persistent rule files.
 
 ## 3. Refine Product Context and Apply Rules (3–4 minutes)
@@ -116,7 +116,9 @@ Examples of acceptable tweaks:
 - Switch **Name** weight (`font-bold` → `font-semibold`)
 - Tweak **Card** border (`border-zinc-800` → `border-lime-900` )
 
-For more color options, see the [Tailwind CSS colors documentation](https://tailwindcss.com/docs/colors#working-with-colors).
+For more **color** options, see the [Tailwind CSS colors documentation](https://tailwindcss.com/docs/colors#working-with-colors).
+
+For more **font weight/size** options, see the [Tailwind CSS Typography documentation](https://v3.tailwindcss.com/docs/font-size).
 
 Do **NOT**:
 - Change layout rules
@@ -128,7 +130,7 @@ Do **NOT**:
 
 In Cursor chat, ask:
 
-> Read @profile-card.mdc and update @ProfileCard.tsx to follow the updated Product Overview and Typography rules. Only modify what is allowed by the rule file.
+> Read @profile-card.mdc and update @ProfileCard.tsx to follow the updated Product Overview and rules. Only modify what is allowed by the rule file.
 
 Observe the changes in your browser. The layout should remain identical. Only colors or typography should change.
 
@@ -140,7 +142,7 @@ In your Cursor terminal, run:
 git diff
 ```
 
-You should see small updates — primarily changes to Tailwind `className` values in `ProfileCard.tsx`.
+You should see small updates only, primarily changes to Tailwind `className` values in `ProfileCard.tsx`.
 
 ### ✅ Checkpoint
 
@@ -155,17 +157,17 @@ This demonstrates how product overview and constraints guide AI behavior without
 ## 4. Complete the Profile Card With Your Info [OPTIONAL]
 Replace string values in prompts with your information. Be sure to provide Cursor with `string` values (use "")
 
-### a. Ask Cursor to update the name displayed on the `ProfileCard`
+### a. Ask Cursor to update the `name` displayed on the `ProfileCard`
 In Cursor chat, ask:
 
 > In App.tsx edit the name property's value to the string "REPLACE WITH YOUR NAME"
 
-### b. Ask Cursor to update the title displayed on the `ProfileCard`
+### b. Ask Cursor to update the `title` displayed on the `ProfileCard`
 In Cursor chat, ask:
 
 > In App.tsx edit the title property's value to the string "YREPLACE WITH OUR TITLE"
 
-### c. Ask Cursor to update the bio displayed on the `ProfileCard`
+### c. Ask Cursor to update the `bio` displayed on the `ProfileCard`
 In Cursor chat, ask:
 
 > In App.tsx edit the bio property's value to the string "REPLACE WITH YOUR BIO"
