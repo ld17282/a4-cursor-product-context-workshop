@@ -1,15 +1,15 @@
 # A4 — Providing Product Context to Cursor  
-## Overview • Rules • Intent
+## Overview & Intent
 
 This workshop demonstrates how to guide Cursor using product context instead of detailed implementation instructions.
 
-You will:
+### You will:
 - [ ] Create a branch following a naming convention
 - [ ] Navigate to and refine a product overview + rules file
 - [ ] Use Cursor to update a component based on that context
 - [ ] Verify changes using `git diff`
 
-Time: ~ 8 minutes
+### Time: ~ 8 minutes
 
 ## 1. Clone and Run the App (1 minute)
 
