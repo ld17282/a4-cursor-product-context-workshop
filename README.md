@@ -36,31 +36,27 @@ npm run dev
 
 ### c. Open the local URL shown in your terminal 
 The Cursor Terminal will show the local url. Click on it. 
-
-![Terminal with localhost URL](images/terminal_localhost.png)
+    ![Terminal with localhost URL](images/terminal_localhost.png)
 
 You should see a centered dark profile card.
-
-![Profile card running on localhost](images/default-profile-card.png?v=3)
+    ![Profile card running on localhost](images/default-profile-card.png?v=3)
 
 ### ✅ Checkpoint: 
 - [ ] The app runs, and you can see the `ProfileCard` component.
 - [ ] Leave this terminal running so you can see changes on the frontend in real time.
-
-![Terminal dev server](images/terminal-dev-server.png)
+- [ ] Create a new terminal (see below) for section 2.
+    ![Terminal dev server](images/terminal-dev-server.png)
 
 ## 2. Create a Branch (1 minute)
 
 Before making any changes, create a new feature branch for styling the `ProfileCard`. This repository includes a persistent git rule file: `git.mdc` (see file location below). Cursor must follow the branch naming convention defined there.
-
-![Git rules file location](images/git-rules-file-location.png)
+    ![Git rules file location](images/git-rules-file-location.png)
 
 
 ### a. Branch Naming Convention
 
 All feature branches must follow the format defined by `git.mdc`:
-
-![Cursor Git Rules](images/cursor-git-rules.png)
+    ![Cursor Git Rules](images/cursor-git-rules.png)
 
 ### b. Use Cursor to Create the Branch
 
@@ -83,8 +79,7 @@ git branch
 ```
 
 You should see your new branch highlighted:
-
-![New branch confirmation](images/new-branch-confirmation.png)
+    ![New branch confirmation](images/new-branch-confirmation.png)
 
 ### ✅ Checkpoint:
 - [ ] You are no longer on `main`
@@ -99,8 +94,7 @@ Your goal is to refine the existing rule file and use it to modify the `ProfileC
 ### a. Refine the Product Context
 
 Open `profile-card.mdc` found in the `.cursor` folder in the root directory. This file already defines conventions and constraints for the `ProfileCard` component.
-
-![Profile card rules file location](images/profile-card-rules-file-location.png)
+    ![Profile card rules file location](images/profile-card-rules-file-location.png)
 
 Your Tasks:
 
@@ -133,10 +127,9 @@ In Cursor chat, ask:
 > Read @profile-card.mdc and update @ProfileCard.tsx to follow the updated Product Overview and rules. Only modify what is allowed by the rule file.
 
 Because your dev server is still running, the browser should automatically refresh when the component is updated. Observe the changes in real time.
-
 The layout should remain identical. Only colors or typography should have changed.
 
-If you accidentally closed your dev server earlier, restart it:
+If, **AND ONLY IF**, you accidentally closed your dev server earlier, restart it:
 
 ```bash
 cd frontend
@@ -193,4 +186,4 @@ Your browser should automatically refresh and display your avatar.
 
 You're done! To submit your work:
 
-- [ ] Add a screenshot of your `git diff` or your finished ProfileCard to the [A4: Hands On Activity Class Submissions](https://docs.google.com/presentation/d/17GfyzsQToiupSLrwz6QOexj3pRIYClCn8BBCjzBOjM0/edit?slide=id.g3c94bca50ad_0_2379#slide=id.g3c94bca50ad_0_2379) deck. 
+- [ ] Add a screenshot of your `git diff` or your finished ProfileCard to this deck → [A4: Hands On Activity Class Submissions](https://docs.google.com/presentation/d/17GfyzsQToiupSLrwz6QOexj3pRIYClCn8BBCjzBOjM0/edit?slide=id.g3c94bca50ad_0_2379#slide=id.g3c94bca50ad_0_2379).
