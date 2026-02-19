@@ -100,9 +100,14 @@ Open `profile-card.mdc` found in the `.cursor` folder in the root directory. Thi
 
 ![Profile card rules file location](images/profile-card-rules-file-location.png)
 
+Pay attention to comments! Developers use comments to provide context on their code. In this exercise, comments are helpful tips for completing your tasks.
+See an example comment on line 6 of the `profile-card.mdc` file:
+
+![Example comment in profile-card.mdc](images/comment-example.png)
+
 Your Tasks:
 
-- [ ] Replace the `[TBD]` text under **Product Overview** with a short description (2–3 sentences) describing the overall tone and purpose of the ProfileCard.
+- [ ] Replace the `TBD` text under **Product Overview** with a short description (2–3 sentences) describing the overall tone and purpose of the ProfileCard.
 - [ ] Adjust **one Typography rule** to reflect your design preference.
 - [ ] Adjust **one Theme rule** to reflect your design preference.
 

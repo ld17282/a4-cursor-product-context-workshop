@@ -6,8 +6,8 @@ alwaysApply: false
 <!-- This is a comment. Students can read this. Cursor will ignore it semantically. -->
 
 ## Product Overview
-<!-- Write 2–3 sentences describing tone, purpose, and overall feel. Replace "TBD" below. -->
-TBD
+<!-- Write 2–3 sentences describing the purpose and function of the ProfileCard component. Replace "TBD..." below. -->
+TBD - Write your product overview here!
 
 
 ## Props
@@ -50,7 +50,6 @@ Avoid `font-black` and `font-light` extremes unless explicitly required for the 
 <!-- Try changing one of the following themes (Backgorund, Card). For context...
     - bg-* sets the background color of an element
     - border-* sets the border color of an element
-    - see color options to replace * here -> https://tailwindcss.com/docs/colors#working-with-colors
-    -->
+    - see color options to replace * here -> https://tailwindcss.com/docs/colors#working-with-colors -->
 - Background: `bg-zinc-900`
 - Card: `bg-zinc-900/40`, `border-zinc-800`
