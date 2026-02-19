@@ -132,25 +132,24 @@ In Cursor chat, ask:
 
 > Read @profile-card.mdc and update @ProfileCard.tsx to follow the updated Product Overview and rules. Only modify what is allowed by the rule file.
 
-To observe the changes in your browser, in your Cursor terminal, run:
+Because your dev server is still running, the browser should automatically refresh when the component is updated. Observe the changes in real time.
+
+The layout should remain identical. Only colors or typography should have changed.
+
+If you accidentally closed your dev server earlier, restart it:
+
 ```bash
 cd frontend
-npm i
 npm run dev
 ```
 
- Click on the localhost link again. The layout should remain identical. Only colors or typography should have changed.
-
 ### c. Verify with Git Diff
 
-In your Cursor terminal, run:
+In Cursor chat, ask:
 
-```bash
-cd ..
-git diff
-```
+> provide a `git diff` of all the changes I made.
 
-You should see small updates only, primarily changes to Tailwind `className` values in `ProfileCard.tsx`.
+You should see small updates only, primarily changes to Tailwind `className` values in the file `ProfileCard.tsx`.
 
 ### ✅ Checkpoint
 
