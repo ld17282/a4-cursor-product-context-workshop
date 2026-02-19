@@ -160,10 +160,7 @@ This demonstrates how product overview and constraints guide AI behavior without
 
 ## 4. Complete the Profile Card With Your Info [OPTIONAL]
 
-Replace string values in the prompts below with your information.  
-Be sure to provide Cursor with `string` values in quotation marks (use `"Product Designer"`, not Product Designer).
-
-Because your dev server is still running, these changes will reflect automatically in your browser.
+Replace string values in the prompts below with your information. Be sure to provide Cursor with `string` values in quotation marks (use `"Product Designer"`, not Product Designer). Because your dev server is still running, your browser should automatically refresh and display your personalized `ProfileCard` component.
 
 
 ### a. Update the `name`
@@ -196,8 +193,6 @@ In Cursor chat, ask:
 - [ ] Then, in Cursor chat, ask:
 
 > In @App.tsx, import `profile-avatar.png` from `src/assets` and pass it as the `avatarUrl` prop to `ProfileCard`. Do not modify other props or layout.
-
-Your browser should automatically refresh and display your avatar.
 
 
 ## 5. Activity Complete ✅ 
