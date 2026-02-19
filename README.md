@@ -159,32 +159,46 @@ This demonstrates how product overview and constraints guide AI behavior without
 
 
 ## 4. Complete the Profile Card With Your Info [OPTIONAL]
-Replace string values in prompts with your information. Be sure to provide Cursor with `string` values with quotations (use "Laurence", not Laurence).
-Because your dev server is still running, these changes will reflect automatically on your frontend.
 
-### a. Ask Cursor to update the `name` displayed on the `ProfileCard`
+Replace string values in the prompts below with your information.  
+Be sure to provide Cursor with `string` values in quotation marks (use `"Product Designer"`, not Product Designer).
+
+Because your dev server is still running, these changes will reflect automatically in your browser.
+
+
+### a. Update the `name`
+
 In Cursor chat, ask:
 
-> In App.tsx edit the name property's value to the string "REPLACE WITH YOUR NAME"
+> In @App.tsx, update the `name` prop passed to `ProfileCard` to the string "REPLACE WITH YOUR NAME". Do not modify any other code.
 
-### b. Ask Cursor to update the `title` displayed on the `ProfileCard`
+
+### b. Update the `title`
+
 In Cursor chat, ask:
 
-> In App.tsx edit the title property's value to the string "REPLACE WITH YOUR TITLE"
+> In @App.tsx, update the `title` prop passed to `ProfileCard` to the string "REPLACE WITH YOUR TITLE". Do not modify any other code.
 
-### c. Ask Cursor to update the `bio` displayed on the `ProfileCard`
+
+### c. Update the `bio`
+
 In Cursor chat, ask:
 
-> In App.tsx edit the bio property's value to the string "REPLACE WITH YOUR BIO"
+> In @App.tsx, update the `bio` prop passed to `ProfileCard` to the string "REPLACE WITH YOUR BIO". Do not modify any other code.
 
-### d. Ask Cursor to update the avatar displayed on the `ProfileCard`
-- [ ] Download your avatar created during **A1 Figma Tutorials - Chapter 8** as a **png** and rename as `profile-avatar.png`
-- [ ] Drag and drop the file from your computer downloads into the repo's assets folder `frontend/src/assets/`
+
+### d. Add Your Avatar
+
+- [ ] Download your avatar created during **A1 Figma Tutorials - Chapter 8** as a PNG file.
+- [ ] Rename the file to `profile-avatar.png`.
+- [ ] Drag and drop the file into `frontend/src/assets/` (see below)
     ![Relocate avatar to assets](images/relocate-avatar-to-assets.png)
-- [ ] In Cursor chat, ask:
-> Import the image @profile-avatar.png from `src/assets` into @App.tsx and pass it as the `avatarUrl` prop to ProfileCard.
+- [ ] Then, in Cursor chat, ask:
+
+> In @App.tsx, import `profile-avatar.png` from `src/assets` and pass it as the `avatarUrl` prop to `ProfileCard`. Do not modify other props or layout.
 
 Your browser should automatically refresh and display your avatar.
+
 
 ## 5. Activity Complete ✅ 
 
