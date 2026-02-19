@@ -162,7 +162,8 @@ This demonstrates how product overview and constraints guide AI behavior without
 
 
 ## 4. Complete the Profile Card With Your Info [OPTIONAL]
-Replace string values in prompts with your information. Be sure to provide Cursor with `string` values (use "")
+Replace string values in prompts with your information. Be sure to provide Cursor with `string` values with quotations (use "Laurence", not Laurence).
+Because your dev server is still running, these changes will reflect automatically on your frontend.
 
 ### a. Ask Cursor to update the `name` displayed on the `ProfileCard`
 In Cursor chat, ask:
@@ -180,4 +181,16 @@ In Cursor chat, ask:
 > In App.tsx edit the bio property's value to the string "REPLACE WITH YOUR BIO"
 
 ### d. Ask Cursor to update the avatar displayed on the `ProfileCard`
-- [ ] Download your avatar created during **A1 Figma Tutorials - Chapter 8** 
+- [ ] Download your avatar created during **A1 Figma Tutorials - Chapter 8** as a **png** and rename as `profile-avatar.png`
+- [ ] Drag and drop the file from your computer downloads into the repo's assets folder `frontend/src/assets/`
+    ![Relocate avatar to assets](images/relocate-avatar-to-assets.png)
+- [ ] In Cursor chat, ask:
+> Import the image `profile-avatar.png` from `src/assets` into App.tsx and pass it as the `avatarUrl` prop to ProfileCard.
+
+Your browser should automatically refresh and display your avatar.
+
+## 5. Activity Complete ✅ 
+
+You're done! To submit your work:
+
+- [ ] Add a screenshot of your `git diff` or your finished ProfileCard to the [A4: Hands On Activity Class Submissions](https://docs.google.com/presentation/d/17GfyzsQToiupSLrwz6QOexj3pRIYClCn8BBCjzBOjM0/edit?slide=id.g3c94bca50ad_0_2379#slide=id.g3c94bca50ad_0_2379) deck. 
