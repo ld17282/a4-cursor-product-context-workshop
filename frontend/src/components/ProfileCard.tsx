@@ -46,10 +46,6 @@ type ProfileCardProps = {
               Message
             </button>
           </div>
-  
-          <p className="mt-6 text-[11px] text-zinc-400">
-            Component: <span className="text-zinc-200">ProfileCard</span>
-          </p>
         </div>
       </div>
     );
