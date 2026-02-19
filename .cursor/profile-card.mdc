@@ -52,5 +52,5 @@ Avoid `font-black` and `font-light` extremes unless explicitly required for the 
     - border-* sets the border color of an element
     - see color options to replace * here -> https://tailwindcss.com/docs/colors#working-with-colors
     -->
-- Background: `bg-zinc-200`
+- Background: `bg-zinc-900`
 - Card: `bg-zinc-900/40`, `border-zinc-800`
