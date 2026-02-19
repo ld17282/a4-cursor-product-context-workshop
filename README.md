@@ -36,10 +36,10 @@ npm run dev
 
 ### c. Open the local URL shown in your terminal 
 The Cursor Terminal will show the local url. Click on it. 
-    ![Terminal with localhost URL](images/terminal_localhost.png)
+![Terminal with localhost URL](images/terminal_localhost.png)
 
 You should see a centered dark profile card.
-    ![Profile card running on localhost](images/default-profile-card.png?v=3)
+![Profile card running on localhost](images/default-profile-card.png?v=3)
 
 ### ✅ Checkpoint: 
 - [ ] The app runs, and you can see the `ProfileCard` component.
