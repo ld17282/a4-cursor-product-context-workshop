@@ -12,7 +12,7 @@ type ProfileCardProps = {
     avatarUrl,
   }: ProfileCardProps) {
     return (
-      <div className="min-h-screen bg-zinc-950 text-zinc-100 flex items-center justify-center p-6">
+      <div className="min-h-screen bg-zinc-900 text-zinc-100 flex items-center justify-center p-6">
         <div className="w-full max-w-md rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 shadow-xl">
           <div className="flex items-start gap-4">
             {/* Default avatar: blank circle */}
@@ -29,14 +29,14 @@ type ProfileCardProps = {
   
             <div className="min-w-0">
               {/* Intentionally “off” typography to improve via rules */}
-              <h1 className="text-4xl font-black tracking-wide text-white">
+              <h1 className="text-2xl font-bold tracking-tight text-white">
                 {name}
               </h1>
-              <p className="mt-1 text-sm font-light text-zinc-300">{title}</p>
+              <p className="mt-1 text-sm font-medium text-zinc-400">{title}</p>
             </div>
           </div>
   
-          <p className="mt-5 text-xs leading-tight text-zinc-200">{bio}</p>
+          <p className="mt-5 text-sm leading-relaxed text-zinc-300">{bio}</p>
   
           <div className="mt-6 flex gap-2">
             <button className="rounded-lg bg-white px-3 py-2 text-sm font-semibold text-zinc-950">
@@ -46,10 +46,6 @@ type ProfileCardProps = {
               Message
             </button>
           </div>
-  
-          <p className="mt-6 text-[11px] text-zinc-400">
-            Component: <span className="text-zinc-200">ProfileCard</span>
-          </p>
         </div>
       </div>
     );

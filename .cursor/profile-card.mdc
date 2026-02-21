@@ -1,0 +1,55 @@
+---
+globs: **/ProfileCard.tsx
+alwaysApply: false
+---
+# ProfileCard Component Rules
+<!-- This is a comment. Students can read this. Cursor will ignore it semantically. -->
+
+## Product Overview
+<!-- Write 2–3 sentences describing the purpose and function of the ProfileCard component. Replace "TBD..." below. -->
+TBD - Write your product overview here!
+
+
+## Props
+- `name` (string) – User's display name
+- `title` (string) – Role or subtitle (e.g., "Designer & Engineer")
+- `bio` (string) – Short description
+- `avatarUrl` (optional string) – Image URL; fallback to blank circle when absent
+
+
+## Typography
+Use intentional, hierarchy-driven typography:
+<!-- Try changing one of the following text properties (Name, Title, or Bio). For context...
+   - text-* (-2xl, -3xl, -sm, -medium, etc) define the text size.
+   - font-* (-medium, -semibold, -normal, etc) define the font weight. 
+   - text-*color*-### defines the text color and opacity. 
+   - see typography documentation here -> https://v3.tailwindcss.com/docs/font-size -->
+- **Name**: `text-2xl`, `font-bold`, `tracking-tight`, `text-white`
+- **Title**: `text-sm`, `font-medium`, `text-zinc-400`
+- **Bio**: `text-sm`, `leading-relaxed`, `text-zinc-300`
+
+Avoid `font-black` and `font-light` extremes unless explicitly required for the design system.
+
+
+## Layout & Spacing
+<!-- Students should not edit. -->
+- Card: `max-w-md`, `rounded-2xl`, `p-6`
+- Avatar: `h-14 w-14`, `rounded-full`
+- Gap between avatar and content: `gap-4`
+- Bio margin-top: `mt-5`
+- Buttons: `mt-6`, `gap-2`
+
+
+## Buttons
+<!-- Students should not edit. -->
+- Primary (Follow): filled, high contrast
+- Secondary (Message): bordered, lower emphasis
+- Both: `rounded-lg`, `px-3 py-2`, `text-sm`
+
+## Theme
+<!-- Try changing one of the following themes (Backgorund, Card). For context...
+    - bg-* sets the background color of an element
+    - border-* sets the border color of an element
+    - see color options to replace * here -> https://tailwindcss.com/docs/colors#working-with-colors -->
+- Background: `bg-zinc-900`
+- Card: `bg-zinc-900/40`, `border-zinc-800`
