@@ -100,7 +100,7 @@ Open `profile-card.mdc` found in the `.cursor` folder in the root directory. Thi
 
 ![Profile card rules file location](images/profile-card-rules-file-location.png)
 
-Pay attention to comments! Developers use comments to provide context on their code. In this exercise, comments are helpful tips for completing your tasks.
+Pay attention to comments! Developers use comments to provide context for their code. In this exercise, comments are helpful tips for completing your tasks.
 See an example comment on line 6 of the `profile-card.mdc` file:
 
 ![Example comment in profile-card.mdc](images/comment-example.png)
@@ -145,7 +145,7 @@ cd frontend
 npm run dev
 ```
 
-### c. Verify with Git Diff
+### c. Verify with `git diff`
 
 In Cursor chat, ask:
 
