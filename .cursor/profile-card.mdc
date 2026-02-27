@@ -6,8 +6,8 @@ alwaysApply: false
 <!-- This is a comment. Students can read this. Cursor will ignore it semantically. -->
 
 ## Product Overview
-<!-- Write 2–3 sentences describing the purpose and function of the ProfileCard component. Replace "TBD..." below. -->
-TBD - Write your product overview here!
+<!-- 2–3 sentences describing the purpose and function of the ProfileCard component. -->
+ProfileCard displays a user's identity and role in a compact, scannable format. It surfaces the avatar, display name, title, and bio, plus primary actions (Follow and Message) so viewers can connect at a glance. Use it anywhere a person summary is needed—team directories, author bios, or social previews.
 
 
 ## Props
