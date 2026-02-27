@@ -89,12 +89,12 @@ You should see your new branch highlighted:
 - [ ] `your-branch` follows the required naming format. 
 This demonstrates that Cursor is reading and applying persistent rule files.
 
-## 3. Refine Product Context and Apply Rules (3–4 minutes)
+## 3. Edit Rules and Ask Cursor to Apply Them (3–4 minutes)
 
 Now you will guide Cursor using product context instead of detailed implementation instructions.
 Your goal is to refine the existing rule file and use it to modify the `ProfileCard` typography and theme.
 
-### a. Refine the Product Context
+### a. Overview of `profile-card.mdc`
 
 Open `profile-card.mdc` found in the `.cursor` folder in the root directory. This file already defines conventions and constraints for the `ProfileCard` component.
 
@@ -107,7 +107,6 @@ See an example comment on line 6 of the `profile-card.mdc` file:
 
 Your Tasks:
 
-- [ ] Replace the `TBD` text under **Product Overview** with a short description (2–3 sentences) describing the overall tone and purpose of the ProfileCard.
 - [ ] Adjust **one Typography rule** to reflect your design preference.
 - [ ] Adjust **one Theme rule** to reflect your design preference.
 
