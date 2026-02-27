@@ -91,8 +91,7 @@ This demonstrates that Cursor is reading and applying persistent rule files.
 
 ## 3. Edit Rules and Ask Cursor to Apply Them (3–4 minutes)
 
-Now you will guide Cursor using product context instead of detailed implementation instructions.
-Your goal is to refine the existing rule file and use it to modify the `ProfileCard` typography and theme.
+Now you will guide in editing the `ProfileCard` component code by providing it with constraints known as rules. Your goal is to refine the existing rule file `profile-card.mdc` and use it to modify the `ProfileCard.tsx` typography and theme.
 
 ### a. Overview of `profile-card.mdc`
 
