@@ -131,7 +131,7 @@ Do **NOT**:
 
 In Cursor chat, ask:
 
-> Read @profile-card.mdc and update @ProfileCard.tsx to follow the updated Product Overview and rules. Only modify what is allowed by the rule file.
+> Read @profile-card.mdc and update @ProfileCard.tsx to follow the updated rules. Only modify what is allowed by the rule file.
 
 Because your dev server is still running, the browser should automatically refresh when the component is updated. Observe the changes in real time.
 The layout should remain identical. Only colors or typography should have changed.
